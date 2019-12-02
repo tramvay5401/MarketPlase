@@ -5,7 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Document</title>
-    <link href="https://fonts.googleapis.com/css?family=Quicksand:400,500,600,700&display=swap" rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css?family=Quicksand:400,500,600,700&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="css/libs.min.css" />
     <link rel="stylesheet" href="css/style.min.css" />
   </head>
@@ -32,20 +35,59 @@
       </div>
       <div class="header__menu">
         <div class="container">
-          <nav class="menu">
-            <ul class="menu__list">
-              <li><a href="#">HOME </a></li>
-              <li><a href="#">all products </a></li>
-              <li><a href="#">wordpress </a></li>
-              <li><a href="#">festures </a></li>
-              <li><a href="#">Pages</a></li>
-            </ul>
-          </nav>
-           
-          <form action=""></form>
+          <div class="header__menu-inner">
+            <nav class="menu">
+              <ul class="menu__list">
+                <li><a href="#">HOME </a></li>
+                <li><a href="#">all products </a></li>
+                <li><a href="#">wordpress </a></li>
+                <li><a href="#">festures </a></li>
+                <li><a href="#">Pages</a></li>
+              </ul>
+            </nav>
+
+            <div class="search__inner-form">
+              <form>
+                <input
+                  type="text"
+                  placeholder="Search product here..."
+                  required
+                />
+                <button type="submit"></button>
+              </form>
+            </div>
+          </div>
         </div>
       </div>
     </header>
+
+    <section class="create">
+      <div class="container">
+        <div class="create__inner">
+          <h1 class="create__title">
+            <span>Create Your Own</span><br />
+            Digital Product Marketplace
+          </h1>
+          <h2 class="create__inner-title">
+            MartPlace is the most powerful, & customizable template for Easy
+            Digital Downloads Products
+          </h2>
+          <div class="links__inner">
+            <a href="#">View All Products</a>
+            <a href="#">Popular Products</a>
+          </div>
+        </div>
+      </div>
+      <div class="categories__inner">
+        <div class="categories__search-inner">
+          <form>
+            <input type="text" placeholder="Search your products..." required />
+          </form>
+          <div class="categories__text">All Categories</div>
+          <button type="submit">Search Now</button>
+        </div>
+      </div>
+    </section>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="js/libs.min.js"></script>
