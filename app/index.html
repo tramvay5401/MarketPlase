@@ -9,11 +9,14 @@
       href="https://fonts.googleapis.com/css?family=Quicksand:400,500,600,700&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="https://cdn.linearicons.com/free/1.0.0/icon-font.min.css">
     <link rel="stylesheet" href="css/libs.min.css" />
     <link rel="stylesheet" href="css/style.min.css" />
   </head>
   <body>
-    <header class="header">
+    <div class="wrapper">
+      <div class="content page-content">
+      <header class="header">
       <div class="header__top">
         <div class="container">
           <div class="header__top-inner">
@@ -22,13 +25,189 @@
                 <img src="img/Logo.png" alt="" />
               </a>
             </div>
-            <div class="header__text">
+            <div class="animation__wrapper">
+              <div class="ball ball-1"></div>
+              <div class="ball ball-2"></div>
+              <div class="ball ball-3"></div>
+              <div class="ball ball-4"></div>
+            </div>
+            <div class="header__button">
               <a href="#">Become a Seller</a>
             </div>
             <div class="header__box">
-              <a class="basket" href="#"></a>
-              <a class="header__btn header__btn-login " href="#">Login</a>
-              <a class="header__btn header__btn-register " href="#">Register</a>
+
+              <div class="icon__header bell-o__box">
+                <a class=" icon__header icon-bell-o" href="#">
+                  <span>26</span>
+                </a>
+                <div class="header__bell-information style-box">
+                  <div class="bell-information-title__inner">
+                      <div class="bell-information-title">My Notifications</div>
+                      <div class="bell-information-status">View All</div>
+                    </div>
+                  <ul >                   
+                    <li class="bell-information__list" >
+                      <div class="bell-information-img">
+                        <img src="img/content/envelope-information-img.png" alt="">
+                      </div>
+                      <div class="bell-information-content">
+                        <div class="bell-information-content__title"> <span>Anderson</span>  added to Favourite </div>
+                        <div class="bell-information-content__text">Marketify Coffee Shop</div>
+                        <div class="bell-information-content__status">Just now</div>
+                      </div>
+                      <div class="bell-information-content__ico icon-heart"></div>
+                    </li>
+                    <li class="bell-information__list" >
+                      <div class="bell-information-img">
+                        <img src="img/content/envelope-information-img.png" alt="">
+                      </div>
+                      <div class="bell-information-content">
+                        <div class="bell-information-content__title"> <span>Anderson</span>  added to Favourite </div>
+                        <div class="bell-information-content__text">Marketify Coffee Shop</div>
+                        <div class="bell-information-content__status">Just now</div>
+                      </div>
+                      <div class="bell-information-content__ico icon-heart"></div>
+                    </li>
+                    <li class="bell-information__list" >
+                      <div class="bell-information-img">
+                        <img src="img/content/envelope-information-img.png" alt="">
+                      </div>
+                      <div class="bell-information-content">
+                        <div class="bell-information-content__title"> <span>Anderson</span>  added to Favourite </div>
+                        <div class="bell-information-content__text">Marketify Coffee Shop</div>
+                        <div class="bell-information-content__status">Just now</div>
+                      </div>
+                      <div class="bell-information-content__ico icon-heart"></div>
+                    </li>
+                  </ul>
+              </div>
+              </div>
+              <div class="icon__header envelope-o__box">
+                <a class=" icon__header icon-envelope-o" href="#">
+                  <span>6</span>
+                </a>
+                <div class="header__envelope-information style-box">
+                  <div class="envelope-information-title-inner">
+                    <div class="envelope-information-title">My Messages</div>
+                    <div class="envelope-information-title-status">View All</div>
+                  </div>
+                  
+                  <ul class="envelope-information__list">
+                    <li>
+                      <div class="envelope-information-img">
+                        <img src="img/content/envelope-information-img.png" alt="">
+                      </div>
+                      <div class="envelope-information-content">
+                        <div class="information-content-status">
+                          <a class=" envelope-information-ico icon-envelope-o"  href="#">Washim</a> 
+                          <div class="envelope-information-status">Just now</div>
+                        </div>
+                       
+                       <div class="envelope-information-text">Hello John Smith! Nunc placerat id...</div>
+                      </div>
+                      
+                    </li>
+                    <li>
+                      <div class="envelope-information-img">
+                        <img src="img/content/envelope-information-img.png" alt="">
+                      </div>
+                      <div class="envelope-information-content">
+                        <div class="information-content-status">
+                          <a class=" envelope-information-ico icon-envelope-o"  href="#">Washim</a> 
+                          <div class="envelope-information-status">Just now</div>
+                        </div>
+                       
+                       <div class="envelope-information-text">Hello John Smith! Nunc placerat id...</div>
+                      </div>
+                      
+                    </li>
+                    <li>
+                      <div class="envelope-information-img">
+                        <img src="img/content/envelope-information-img.png" alt="">
+                      </div>
+                      <div class="envelope-information-content">
+                        <div class="information-content-status">
+                          <a class=" envelope-information-ico icon-envelope-o"  href="#">Washim</a> 
+                          <div class="envelope-information-status">Just now</div>
+                        </div>
+                       
+                       <div class="envelope-information-text">Hello John Smith! Nunc placerat id...</div>
+                      </div>
+                      
+                    </li>
+                    
+                    
+                  </ul>
+              </div>
+              </div>
+              <div class=" icon__header shopping-cart__box">
+                <a class=" icon__header icon-shopping-cart" href="#">
+                <span>2</span>
+              </a>
+              <div class="header__shopping-information style-box">
+                  <div class="header__shopping-item">
+                    <div class="header__shopping-img">
+                     <img src="img/content/header__shopping-Img.jpg" alt=""> 
+                    </div>
+                    <div class="header__shopping-content">
+                      <div class="header__shopping-title">Finance and Consulting 
+                      Business Theme</div>
+                      <div class="icon-wordpress">Wordpress</div>
+                    </div>
+                    <div class="header__shopping-price">
+                      <div class="shopping-bin icon-sort-amount-desc"></div>
+                      <div class="shopping-price">$60</div>
+                    </div>
+                  </div>
+                  <div class="header__shopping-item">
+                    <div class="header__shopping-img">
+                      <img src="img/content/header__shopping-Img.jpg" alt=""> 
+                     </div>
+                    <div class="header__shopping-content">
+                      <div class="header__shopping-title">Finance and Consulting 
+                      Business Theme</div>
+                      <div class="icon-wordpress">Wordpress</div>
+                    </div>
+                    <div class="header__shopping-price">
+                      <div class="shopping-bin icon-sort-amount-desc"></div>
+                      <div class="shopping-price">$60</div>
+                    </div>
+                  </div>
+                  <div class="header__shopping-totalprice"> <span>Total:</span> $80</div>
+                  <div class="header__shopping__link">
+                    <a href="#">Go to Cart</a>
+                    <a href="#">Go to Checkout</a>
+                  </div>
+                  
+            </div>
+              </div>
+              
+              <a class="header__btn header__btn-login off " href="#">Login</a>
+              <a class="header__btn header__btn-register off " href="#">Register</a>
+              <div class="header__author-img">
+                <img src="img/content/header__author-img.png" alt="" />
+              </div>
+              <div class="header__author-content">
+                <div class="header__author-name">
+                  Taofiq Hakim
+                </div>
+                <div class="header__author-money">$20.45</div>
+                <div class="header__author-information style-box">
+                    <ul>
+                        <li  ><a class="icon-shopping-cart"  href="#">Profile Page</a></li>
+                        <li  ><a class="icon-shopping-cart" href="#">Dashboard</a></li>
+                        <li  ><a class="icon-shopping-cart" href="#">Account Settings</a></li>
+                        <li  ><a class="icon-shopping-cart" href="#">Your Purchases</a></li>
+                        <li  ><a class="icon-shopping-cart" href="#">Your Favorites</a></li>
+                        <li  ><a class="icon-shopping-cart" href="#">Add Credits</a></li>
+                        <li  ><a class="icon-shopping-cart" href="#">Sales Statements</a></li>
+                        <li  ><a class="icon-shopping-cart" href="#">Upload Item</a></li>
+                        <li  ><a class="icon-shopping-cart" href="#">Edit Item</a></li>
+                        <li  ><a class="icon-shopping-cart" href="#">Withdrawals</a></li>
+                        <li  ><a class="icon-shopping-cart" href="#">Logout</a></li>
+                    </ul>
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -38,11 +217,116 @@
           <div class="header__menu-inner">
             <nav class="menu">
               <ul class="menu__list">
-                <li><a href="#">HOME </a></li>
-                <li><a href="#">all products </a></li>
-                <li><a href="#">wordpress </a></li>
+                <li class="menu__list__box" ><a href="#">HOME </a>
+                  <div class=" menu__list  menu__list-wordpress" >
+                    <ul >  
+                      <li class="list-wordpress"><a href="#">Home One Multi User</a></li>
+                      <li class="list-wordpress"><a href="#">Home Two Single User</a></li>
+                      <li class="list-wordpress"><a href="#">Home Three Product</a></li>
+                    </ul>
+                    </div>
+                </li>
+                <li class="menu__list__box" ><a href="#">all products </a>
+                  <div class=" menu__list  menu__list-wordpress" >
+                    <ul > 
+                      <li class="list-wordpress"><a href="#"> Recent Items</a></li>
+                      <li class="list-wordpress"><a href="#">Popular Items</a></li>
+                      <li class="list-wordpress"><a href="#">Featured Items</a></li>
+                      <li class="list-wordpress"><a href="#">Free Templates</a></li>
+                      <li class="list-wordpress"><a href="#">Follow Feed</a></li>
+                      <li class="list-wordpress"><a href="#">Top Authors</a></li>
+                    </ul>
+                    </div>
+                </li>
+                <li class="menu__list__box"><a  href="#">wordpress</a>
+                  <div class=" menu__list  menu__list-wordpress" >
+                  <ul > 
+                    <li class="list-wordpress"><a href="#">Popular Items</a></li>
+                    <li class="list-wordpress"><a href="#">Admin Templates</a></li>
+                    <li class="list-wordpress"><a href="#">Blog / Magazine / News</a></li>
+                    <li class="list-wordpress"><a href="#">Creative</a></li>
+                    <li class="list-wordpress"><a href="#">Corporate Business</a></li>
+                    <li class="list-wordpress"><a href="#">Resume Portfolio</a></li>
+                    <li class="list-wordpress"><a href="#">eCommerce</a></li>
+                    <li class="list-wordpress"><a href="#">Entertainment</a></li>
+                    <li class="list-wordpress"><a href="#">Landing Pages</a></li>
+                  </ul>
+                  </div>
+                </li>
+                
                 <li><a href="#">festures </a></li>
-                <li><a href="#">Pages</a></li>
+                <li class="menu__list__box" ><a href="#">Pages</a>
+                  <div class=" menu__list  menu__list-wordpress menu__list-pages " >
+                   <div class="list-pages-iiner">
+                    <ul class="menu__list-dropdown" >
+                      <div class="menu__list__title">MartPlace Pages</div>
+                      <li class="list-wordpress"><a href="#">Home Page One</a></li>
+                      <li class="list-wordpress"><a href="#">Home Page Two</a></li>
+                      <li class="list-wordpress"><a href="#">Home Page Three</a></li>
+                      <li class="list-wordpress"><a href="#">Products Grid</a></li>
+                      <li class="list-wordpress"><a href="#">Products List</a></li>
+                      <li class="list-wordpress"><a href="#">Category Grid Sidebar</a></li>
+                      <li class="list-wordpress"><a href="#">Category List Sidebar</a></li>
+                      <li class="list-wordpress"><a href="#">Search Product</a></li>
+                      <li class="list-wordpress"><a href="#">Single Product V-1</a></li>
+                      <li class="list-wordpress"><a href="#">Single Product V-2</a></li>
+                      <li class="list-wordpress"><a href="#">Single Product V-3</a></li>
+                      <li class="list-wordpress"><a href="#">Single Product V-3</a></li>
+                      <li class="list-wordpress"><a href="#">Single Product V-3</a></li>
+                      <li class="list-wordpress"><a href="#">Single Product V-3</a></li>
+                      <li class="list-wordpress"><a href="#">Single Product V-3</a></li>
+                      <li class="list-wordpress"><a href="#">Single Product V-3</a></li>
+                      <li class="list-wordpress"><a href="#">Single Product V-3</a></li>
+                      <li class="list-wordpress"><a href="#">Single Product V-3</a></li>
+                      <li class="list-wordpress"><a href="#">Single Product V-3</a></li>
+                      <li class="list-wordpress"><a href="#">Single Product V-3</a></li>
+                      <li class="list-wordpress"><a href="#">Single Product V-3</a></li>
+                      <li class="list-wordpress"><a href="#">Single Product V-3</a></li>
+                      <li class="list-wordpress"><a href="#">Single Product V-3</a></li>
+                      
+                    </ul>
+
+                    <ul  >
+                      <div class="menu__list__title">Dashboard</div>
+                      <li class="list-wordpress"><a href="#">Popular Items</a></li>
+                      <li class="list-wordpress"><a href="#">Admin Templates</a></li>
+                      <li class="list-wordpress"><a href="#">Blog / Magazine / News</a></li>
+                      <li class="list-wordpress"><a href="#">Creative</a></li>
+                      <li class="list-wordpress"><a href="#">Corporate Business</a></li>
+                      <li class="list-wordpress"><a href="#">Resume Portfolio</a></li>
+                      <li class="list-wordpress"><a href="#">eCommerce</a></li>
+                      <li class="list-wordpress"><a href="#">Entertainment</a></li>
+                      <li class="list-wordpress"><a href="#">Landing Pages</a></li>
+                      <li class="list-wordpress"><a href="#">Landing Pages</a></li>
+                      <li class="list-wordpress"><a href="#">Landing Pages</a></li>
+                    </ul>
+
+                    <ul class="menu__list-dropdown" >
+                      <div class="menu__list__title">Others Pages</div>
+                      <li class="list-wordpress"><a href="#">Popular Items</a></li>
+                      <li class="list-wordpress"><a href="#">Admin Templates</a></li>
+                      <li class="list-wordpress"><a href="#">Blog / Magazine / News</a></li>
+                      <li class="list-wordpress"><a href="#">Creative</a></li>
+                      <li class="list-wordpress"><a href="#">Corporate Business</a></li>
+                      <li class="list-wordpress"><a href="#">Resume Portfolio</a></li>
+                      <li class="list-wordpress"><a href="#">eCommerce</a></li>
+                      <li class="list-wordpress"><a href="#">Entertainment</a></li>
+                      <li class="list-wordpress"><a href="#">Landing Pages</a></li>
+                      <li class="list-wordpress"><a href="#">Landing Pages</a></li>
+                      <li class="list-wordpress"><a href="#">Landing Pages</a></li>
+                      <li class="list-wordpress"><a href="#">Landing Pages</a></li>
+                      <li class="list-wordpress"><a href="#">Landing Pages</a></li>
+                      <li class="list-wordpress"><a href="#">Landing Pages</a></li>
+                      <li class="list-wordpress"><a href="#">Landing Pages</a></li>
+                      <li class="list-wordpress"><a href="#">Landing Pages</a></li>
+                      <li class="list-wordpress"><a href="#">Landing Pages</a></li>
+                      <li class="list-wordpress"><a href="#">Landing Pages</a></li>
+                      <li class="list-wordpress"><a href="#">Landing Pages</a></li>
+                      <li class="list-wordpress"><a href="#">Landing Pages</a></li>
+                    </ul>
+                  </div> 
+                  </div>
+                </li >
               </ul>
             </nav>
 
@@ -135,7 +419,755 @@
         </div>
       </div>
     </section>
+    <section class="featured">
+      <div class="container">
+        <div class="featured__title">
+          Weekly Featured Products
+        </div>
+        <div class="featured__inner">
 
+
+          <div class="featured__item">
+            <div class="featured__item-inner">
+            <div class="featured__inner-img" style="background-image:url(img/content/featured__inner-img.jpg);">
+              <a href="#"></a>
+              <a href="#"></a>
+            </div>
+
+            <div class="featured__text-inner">
+              <div class="featured__text-title">
+                One Page Resume Template
+              </div>
+              <div class="featured__author">
+                <div class="featured__author-img">
+                  <img src="img/content/Ellipse 6.png" alt="" />
+                </div>
+                <div class="featured__author-name">AazzTech</div>
+                <div class="featured__author-ico">WordPress</div>
+              </div>
+              <div class="featured__text-text">
+                Nunc placerat mi id nisi interdum mollis. Praesent pharetra,
+                justo ut scelerisque the mattis, leo quam aliquet congue
+                placerat mi id nisi interdum mollis. Praesent pharetra, justo ut
+                scelerisque the mattis, leo quam aliquet congue justo ut
+                scelerisque.
+              </div>
+              <ul class="featured__author-list">
+                <li><a href="#">website</a></li>
+                <li><a href="#">plugin</a></li>
+                <li><a href="#">landing page</a></li>
+              </ul>
+              <div class="featured__author-price-inner">
+                <a href="#"></a>
+                <span></span>
+                <span></span>
+               <div class="featured__author-star">(05)</div> 
+              </div>
+              
+            </div>
+          </div>
+          </div>
+
+          <div class="featured__item">
+            <div class="featured__item-inner">
+            <div class="featured__inner-img" style="background-image:url(img/content/featured__inner-img.jpg);">
+              <a href="#"></a>
+              <a href="#"></a>
+            </div>
+
+            <div class="featured__text-inner">
+              <div class="featured__text-title">
+                One Page Resume Template
+              </div>
+              <div class="featured__author">
+                <div class="featured__author-img">
+                  <img src="img/content/Ellipse 6.png" alt="" />
+                </div>
+                <div class="featured__author-name">AazzTech</div>
+                <div class="featured__author-ico">WordPress</div>
+              </div>
+              <div class="featured__text-text">
+                Nunc placerat mi id nisi interdum mollis. Praesent pharetra,
+                justo ut scelerisque the mattis, leo quam aliquet congue
+                placerat mi id nisi interdum mollis. Praesent pharetra, justo ut
+                scelerisque the mattis, leo quam aliquet congue justo ut
+                scelerisque.
+              </div>
+              <ul class="featured__author-list">
+                <li><a href="#">website</a></li>
+                <li><a href="#">plugin</a></li>
+                <li><a href="#">landing page</a></li>
+              </ul>
+              <div class="featured__author-price-inner">
+                <a href="#"></a>
+                <span></span>
+                <span></span>
+               <div class="featured__author-star">(05)</div> 
+              </div>
+              
+            </div>
+          </div>
+          </div>
+          <div class="featured__item">
+            <div class="featured__item-inner">
+            <div class="featured__inner-img" style="background-image:url(img/content/featured__inner-img.jpg);">
+              <a href="#"></a>
+              <a href="#"></a>
+            </div>
+
+            <div class="featured__text-inner">
+              <div class="featured__text-title">
+                One Page Resume Template
+              </div>
+              <div class="featured__author">
+                <div class="featured__author-img">
+                  <img src="img/content/Ellipse 6.png" alt="" />
+                </div>
+                <div class="featured__author-name">AazzTech</div>
+                <div class="featured__author-ico">WordPress</div>
+              </div>
+              <div class="featured__text-text">
+                Nunc placerat mi id nisi interdum mollis. Praesent pharetra,
+                justo ut scelerisque the mattis, leo quam aliquet congue
+                placerat mi id nisi interdum mollis. Praesent pharetra, justo ut
+                scelerisque the mattis, leo quam aliquet congue justo ut
+                scelerisque.
+              </div>
+              <ul class="featured__author-list">
+                <li><a href="#">website</a></li>
+                <li><a href="#">plugin</a></li>
+                <li><a href="#">landing page</a></li>
+              </ul>
+              <div class="featured__author-price-inner">
+                <a href="#"></a>
+                <span></span>
+                <span></span>
+               <div class="featured__author-star">(05)</div> 
+              </div>
+              
+            </div>
+          </div>
+          </div>
+
+          <div class="featured__item">
+            <div class="featured__item-inner">
+            <a href="#" class="featured__inner-img" style="background-image:url(img/content/featured__inner-img.jpg);">
+              <a href="#"></a>
+              <a href="#"></a>
+            </a>
+
+            <div class="featured__text-inner">
+              <div class="featured__text-title">
+                One Page Resume Template
+              </div>
+              <div class="featured__author">
+                <div class="featured__author-img">
+                  <img src="img/content/Ellipse 6.png" alt="" />
+                </div>
+                <div class="featured__author-name">AazzTech</div>
+                <div class="featured__author-ico">WordPress</div>
+              </div>
+              <div class="featured__text-text">
+                Nunc placerat mi id nisi interdum mollis. Praesent pharetra,
+                justo ut scelerisque the mattis, leo quam aliquet congue
+                placerat mi id nisi interdum mollis. Praesent pharetra, justo ut
+                scelerisque the mattis, leo quam aliquet congue justo ut
+                scelerisque.
+              </div>
+              <ul class="featured__author-list">
+                <li><a href="#">website</a></li>
+                <li><a href="#">plugin</a></li>
+                <li><a href="#">landing page</a></li>
+              </ul>
+              <div class="featured__author-price-inner">
+                <a href="#">$10-$50</a>
+                <span>46</span>
+                <span>634</span>
+               <div class="featured__author-star">(05)</div> 
+              </div>
+              
+            </div>
+          </div>
+          </div>
+
+        
+            
+
+
+        </div>
+      </div>
+    </section>
+
+    <section class="products-two">
+      <div class="container">
+        <div class="products-two__title-inner">
+          <div class="products-two__title">Newest Release Products</div>
+          <div class="products-two__filter">Filter by</div>
+        </div>
+        <div class="products-two__btn-inner">
+          <button data-filter="all" >All</button>
+          <button data-filter=".category-plugins" >Plugins</button>
+          <button data-filter=".category-wordpress" >WordPress</button>
+          <button data-filter=".category-sitetemplate">Site Template</button>
+          <button data-filter=".category-pdstemplate">PSD Template</button>
+          <button data-filter=".category-joomla" >Joomla</button>
+          <button data-filter=".category-user" >User Interface</button>
+          <button data-filter=".category-landingpage" >Landing Page</button>
+          <button data-filter=".category-software" >Software</button>
+        </div>
+        <div class="products-two__inner-box">
+
+          <div class="products-two__item mix category-pdstemplate">
+            <div class="products-two__item-box">
+              <a href="#" class="products-two__item-img" style="background-image:url(img/content/products-two-img.png);"></a>
+            </div>
+            <div class="products-two__item-links">
+              <a href="#">More Info</a>
+              <a href="#">Live Demo</a>
+            </div>
+            <div class="products-two__item-title">E-commerce Shopping Cart</div>
+            <div class="products-two__item-content">
+              <a href="#" class="products-two__itemAuthor-img"></a>
+              <div class="products-two__item-name">
+                Theme-Valley
+              </div>
+              <div class="products-two__item-ico">Plugin</div>
+            </div>
+            <div class="products-two__item-text">Nunc placerat mi id nisi interdum mollis. Praesent pharetra, justo ut scelerisque 
+                the mattis, leo quam aliquet congue.</div>
+            <div class="products-two__item-price__inner">
+                <a href="#"  class="products-two__item-price">$20</a>
+                <a  href="#" class="products-two__item-star">90</a>
+                <a href="#"  class="products-two__item-cart">246</a>
+            </div>
+
+          </div>
+          <div class="products-two__item mix category-pdstemplate">
+
+            <a href="#" class="products-two__item-img" style="background-image:url(img/content/products-two-img.png);"></a>
+            <div class="products-two__item-title">E-commerce Shopping Cart</div>
+            <div class="products-two__item-content">
+              <a href="#" class="products-two__itemAuthor-img"></a>
+              <div class="products-two__item-name">
+                Theme-Valley
+              </div>
+              <div class="products-two__item-ico">Plugin</div>
+            </div>
+            <div class="products-two__item-text">Nunc placerat mi id nisi interdum mollis. Praesent pharetra, justo ut scelerisque 
+                the mattis, leo quam aliquet congue.</div>
+            <div class="products-two__item-price__inner">
+                <a href="#"  class="products-two__item-price">$20</a>
+                <a  href="#" class="products-two__item-star">90</a>
+                <a href="#"  class="products-two__item-cart">246</a>
+            </div>
+
+          </div>
+          <div class="products-two__item mix category-software">
+
+            <a href="#" class="products-two__item-img" style="background-image:url(img/content/products-two-img.png);"></a>
+            <div class="products-two__item-title">E-commerce Shopping Cart</div>
+            <div class="products-two__item-content">
+              <a href="#" class="products-two__itemAuthor-img"></a>
+              <div class="products-two__item-name">
+                Theme-Valley
+              </div>
+              <div class="products-two__item-ico">Plugin</div>
+            </div>
+            <div class="products-two__item-text">Nunc placerat mi id nisi interdum mollis. Praesent pharetra, justo ut scelerisque 
+                the mattis, leo quam aliquet congue.</div>
+            <div class="products-two__item-price__inner">
+                <a href="#"  class="products-two__item-price">$20</a>
+                <a  href="#" class="products-two__item-star">90</a>
+                <a href="#"  class="products-two__item-cart">246</a>
+            </div>
+
+          </div>
+          <div class="products-two__item mix category-joomla">
+
+            <a href="#" class="products-two__item-img" style="background-image:url(img/content/products-two-img.png);"></a>
+            <div class="products-two__item-title">E-commerce Shopping Cart</div>
+            <div class="products-two__item-content">
+              <a href="#" class="products-two__itemAuthor-img"></a>
+              <div class="products-two__item-name">
+                Theme-Valley
+              </div>
+              <div class="products-two__item-ico">Plugin</div>
+            </div>
+            <div class="products-two__item-text">Nunc placerat mi id nisi interdum mollis. Praesent pharetra, justo ut scelerisque 
+                the mattis, leo quam aliquet congue.</div>
+            <div class="products-two__item-price__inner">
+                <a href="#"  class="products-two__item-price">$20</a>
+                <a  href="#" class="products-two__item-star">90</a>
+                <a href="#"  class="products-two__item-cart">246</a>
+            </div>
+
+          </div>
+          <div class="products-two__item mix category-joomla">
+
+            <a href="#" class="products-two__item-img" style="background-image:url(img/content/products-two-img.png);"></a>
+            <div class="products-two__item-title">E-commerce Shopping Cart</div>
+            <div class="products-two__item-content">
+              <a href="#" class="products-two__itemAuthor-img"></a>
+              <div class="products-two__item-name">
+                Theme-Valley
+              </div>
+              <div class="products-two__item-ico">Plugin</div>
+            </div>
+            <div class="products-two__item-text">Nunc placerat mi id nisi interdum mollis. Praesent pharetra, justo ut scelerisque 
+                the mattis, leo quam aliquet congue.</div>
+            <div class="products-two__item-price__inner">
+                <a href="#"  class="products-two__item-price">$20</a>
+                <a  href="#" class="products-two__item-star">90</a>
+                <a href="#"  class="products-two__item-cart">246</a>
+            </div>
+
+          </div>
+          <div class="products-two__item mix category-wordpress">
+
+            <a href="#" class="products-two__item-img" style="background-image:url(img/content/products-two-img.png);"></a>
+            <div class="products-two__item-title">E-commerce Shopping Cart</div>
+            <div class="products-two__item-content">
+              <a href="#" class="products-two__itemAuthor-img"></a>
+              <div class="products-two__item-name">
+                Theme-Valley
+              </div>
+              <div class="products-two__item-ico">Plugin</div>
+            </div>
+            <div class="products-two__item-text">Nunc placerat mi id nisi interdum mollis. Praesent pharetra, justo ut scelerisque 
+                the mattis, leo quam aliquet congue.</div>
+            <div class="products-two__item-price__inner">
+                <a href="#"  class="products-two__item-price">$20</a>
+                <a  href="#" class="products-two__item-star">90</a>
+                <a href="#"  class="products-two__item-cart">246</a>
+            </div>
+
+          </div>
+
+        </div>
+        <div class="products-two__btn-all">
+          <button href="#">All New Products</button>
+        </div>
+        
+      </div>
+    </section>
+
+
+    
+    <section class="slider-followers ">
+      <div class="container">
+
+          <div class="slider-followers-title">Your Followers Feed </div>
+
+        <div class="slider-followers__inner ">
+          
+          <div class="slider-followers__item ">
+            <a href="#" class="slider-followers__item-img" style="background-image:url(img/content/products-two-img.png);"></a>
+            <div class="slider-followers__item-title">E-commerce Shopping Cart</div>
+            <div class="slider-followers__item-content">
+              <a href="#" class="slider-followers__itemAuthor-img" style="background-image:url(img/content/Ellipse6.png);"></a>
+              <div class="slider-followers__item-name">
+                Theme-Valley
+              </div>
+              <div class="slider-followers__item-ico">Plugin</div>
+            </div>
+            <div class="slider-followers__item-text">Nunc placerat mi id nisi interdum mollis. Praesent pharetra, justo ut scelerisque 
+                the mattis, leo quam aliquet congue.</div>
+            <div class="slider-followers__item-price__inner">
+                <a href="#"  class="slider-followers__item-price">$20</a>
+                <a  href="#" class="slider-followers__item-star">90</a>
+                <a href="#"  class="slider-followers__item-cart">246</a>
+            </div>
+          </div>
+
+           <div class="slider-followers__item ">
+            <a href="#" class="slider-followers__item-img" style="background-image:url(img/content/products-two-img.png);"></a>
+            <div class="slider-followers__item-title">E-commerce Shopping Cart</div>
+            <div class="slider-followers__item-content">
+              <a href="#" class="slider-followers__itemAuthor-img" style="background-image:url(img/content/Ellipse6.png);"></a>
+              <div class="slider-followers__item-name">
+                Theme-Valley
+              </div>
+              <div class="slider-followers__item-ico">Plugin</div>
+            </div>
+            <div class="slider-followers__item-text">Nunc placerat mi id nisi interdum mollis. Praesent pharetra, justo ut scelerisque 
+                the mattis, leo quam aliquet congue.</div>
+            <div class="slider-followers__item-price__inner">
+                <a href="#"  class="slider-followers__item-price">$20</a>
+                <a  href="#" class="slider-followers__item-star">90</a>
+                <a href="#"  class="slider-followers__item-cart">246</a>
+            </div>
+          </div>
+
+           <div class="slider-followers__item ">
+            <a href="#" class="slider-followers__item-img" style="background-image:url(img/content/products-two-img.png);"></a>
+            <div class="slider-followers__item-title">E-commerce Shopping Cart</div>
+            <div class="slider-followers__item-content">
+              <a href="#" class="slider-followers__itemAuthor-img" style="background-image:url(img/content/Ellipse6.png);"></a>
+              <div class="slider-followers__item-name">
+                Theme-Valley
+              </div>
+              <div class="slider-followers__item-ico">Plugin</div>
+            </div>
+            <div class="slider-followers__item-text">Nunc placerat mi id nisi interdum mollis. Praesent pharetra, justo ut scelerisque 
+                the mattis, leo quam aliquet congue.</div>
+            <div class="slider-followers__item-price__inner">
+                <a href="#"  class="slider-followers__item-price">$20</a>
+                <a  href="#" class="slider-followers__item-star">90</a>
+                <a href="#"  class="slider-followers__item-cart">246</a>
+            </div>
+          </div>
+
+           <div class="slider-followers__item ">
+            <a href="#" class="slider-followers__item-img" style="background-image:url(img/content/products-two-img.png);"></a>
+            <div class="slider-followers__item-title">E-commerce Shopping Cart</div>
+            <div class="slider-followers__item-content">
+              <a href="#" class="slider-followers__itemAuthor-img" style="background-image:url(img/content/Ellipse6.png);"></a>
+              <div class="slider-followers__item-name">
+                Theme-Valley
+              </div>
+              <div class="slider-followers__item-ico">Plugin</div>
+            </div>
+            <div class="slider-followers__item-text">Nunc placerat mi id nisi interdum mollis. Praesent pharetra, justo ut scelerisque 
+                the mattis, leo quam aliquet congue.</div>
+            <div class="slider-followers__item-price__inner">
+                <a href="#"  class="slider-followers__item-price">$20</a>
+                <a  href="#" class="slider-followers__item-star">90</a>
+                <a href="#"  class="slider-followers__item-cart">246</a>
+            </div>
+          </div>
+
+           <div class="slider-followers__item ">
+            <a href="#" class="slider-followers__item-img" style="background-image:url(img/content/products-two-img.png);"></a>
+            <div class="slider-followers__item-title">E-commerce Shopping Cart</div>
+            <div class="slider-followers__item-content">
+              <a href="#" class="slider-followers__itemAuthor-img" style="background-image:url(img/content/Ellipse6.png);"></a>
+              <div class="slider-followers__item-name">
+                Theme-Valley
+              </div>
+              <div class="slider-followers__item-ico">Plugin</div>
+            </div>
+            <div class="slider-followers__item-text">Nunc placerat mi id nisi interdum mollis. Praesent pharetra, justo ut scelerisque 
+                the mattis, leo quam aliquet congue.</div>
+            <div class="slider-followers__item-price__inner">
+                <a href="#"  class="slider-followers__item-price">$20</a>
+                <a  href="#" class="slider-followers__item-star">90</a>
+                <a href="#"  class="slider-followers__item-cart">246</a>
+            </div>
+          </div>
+
+              
+
+
+        </div>
+      </div>
+    </section>
+
+    <section class="followers">
+      <div class="container">
+        <div class="followers__item-inner">
+          <div class="followers__item">
+            <div class="followers__item-ico"><span class="lnr lnr-briefcase"></span></div>
+            <div class="followers__item-number briefcase ">38,436</div>
+            <div class="followers__item-text">items for sale</div>
+          </div>
+          <div class="followers__item">
+            <div class="followers__item-ico"><span class="lnr lnr-cloud-download"></span></div>
+            <div class="followers__item-number download">3,736</div>
+            <div class="followers__item-text">total sales</div>
+          </div>
+          <div class="followers__item">
+            <div class="followers__item-ico"><span class="lnr lnr-smile"></span></div>
+            <div class="followers__item-number smile">2,736</div>
+            <div class="followers__item-text">happy customers</div>
+          </div>
+          <div class="followers__item">
+            <div class="followers__item-ico"><span class="lnr lnr-mustache"></span></div>
+            <div class="followers__item-number mustache">25,736</div>
+            <div class="followers__item-text">members</div>
+          </div>
+          
+      </div>
+      </div>
+    </section>
+
+    <section class="martplace">
+      <div class="container">
+        <h2>Why Choose <span>MartPlace</span> </h2>
+        <h3>Laborum dolo rumes fugats untras. Etharums ser quidem rerum facilis dolores nemis omnis fugats. Lid est laborum dolo rumes fugats untras.</h3>
+        <div class="martplace__item-inner">
+
+            <div class="martplace__item">
+                <div class="martplace__item-num">01</div>
+                <div class="martplace__item-ico"><span class="lnr lnr-license"></span></div>
+                <div class="martplace__item-title">One Time Payment</div>
+                <div class="martplace__item-text">
+                  Nunc placerat mi id nisi interdum mollis. Praesent pharetra, justo ut scelerisque 
+                    the mattis, leo quam aliquet diam
+                    congue is laoreet elit metus.
+                  </div>
+            </div>
+            <div class="martplace__item">
+                <div class="martplace__item-num">01</div>
+                <div class="martplace__item-ico"><span class="lnr lnr-license"></span></div>
+                <div class="martplace__item-title">One Time Payment</div>
+                <div class="martplace__item-text">
+                  Nunc placerat mi id nisi interdum mollis. Praesent pharetra, justo ut scelerisque 
+                    the mattis, leo quam aliquet diam
+                    congue is laoreet elit metus.
+                  </div>
+            </div>
+
+            <div class="martplace__item">
+                <div class="martplace__item-num">01</div>
+                <div class="martplace__item-ico"><span class="lnr lnr-license"></span></div>
+                <div class="martplace__item-title">One Time Payment</div>
+                <div class="martplace__item-text">
+                  Nunc placerat mi id nisi interdum mollis. Praesent pharetra, justo ut scelerisque 
+                    the mattis, leo quam aliquet diam
+                    congue is laoreet elit metus.
+                  </div>
+            </div>
+            <div class="martplace__item">
+                <div class="martplace__item-num">01</div>
+                <div class="martplace__item-ico"><span class="lnr lnr-license"></span></div>
+                <div class="martplace__item-title">One Time Payment</div>
+                <div class="martplace__item-text">
+                  Nunc placerat mi id nisi interdum mollis. Praesent pharetra, justo ut scelerisque 
+                    the mattis, leo quam aliquet diam
+                    congue is laoreet elit metus.
+                  </div>
+            </div>
+
+            <div class="martplace__item">
+                <div class="martplace__item-num">01</div>
+                <div class="martplace__item-ico"><span class="lnr lnr-license"></span></div>
+                <div class="martplace__item-title">One Time Payment</div>
+                <div class="martplace__item-text">
+                  Nunc placerat mi id nisi interdum mollis. Praesent pharetra, justo ut scelerisque 
+                    the mattis, leo quam aliquet diam
+                    congue is laoreet elit metus.
+                  </div>
+            </div>
+
+            <div class="martplace__item">
+                <div class="martplace__item-num">01</div>
+                <div class="martplace__item-ico"><span class="lnr lnr-license"></span></div>
+                <div class="martplace__item-title">One Time Payment</div>
+                <div class="martplace__item-text">
+                  Nunc placerat mi id nisi interdum mollis. Praesent pharetra, justo ut scelerisque 
+                    the mattis, leo quam aliquet diam
+                    congue is laoreet elit metus.
+                  </div>
+            </div>
+        </div>
+      </div>
+    </section>
+    <section class="sellandstart">
+      <div class="sellandstart__inner">
+        <div class="sell" style="background-image:url(img/content/sell_BG.png);" >
+          <div class="sellandstart__ico">
+            <svg 
+            xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink"
+            width="120px" height="101px">
+           <path fill-rule="evenodd"  fill="rgb(255, 255, 255)"
+            d="M109.953,75.231 L75.969,75.231 L79.381,85.470 C82.609,86.308 85.001,89.244 85.001,92.731 L85.001,95.231 L92.501,95.231 C93.881,95.231 95.001,96.351 95.001,97.732 C95.001,99.113 93.881,100.232 92.501,100.232 L81.090,100.232 L38.911,100.232 L38.911,100.232 L27.500,100.232 C26.119,100.232 25.000,99.113 25.000,97.732 C25.000,96.351 26.119,95.231 27.500,95.231 L35.000,95.231 L35.000,92.731 C35.000,89.244 37.390,86.308 40.619,85.470 L44.031,75.231 L10.047,75.231 C4.507,75.231 -0.000,70.724 -0.000,65.185 L-0.000,10.278 C-0.000,4.739 4.507,0.233 10.047,0.233 L109.953,0.233 C115.493,0.233 120.000,4.739 120.000,10.278 L120.000,65.185 C120.000,70.724 115.493,75.231 109.953,75.231 ZM42.500,90.231 C41.121,90.231 40.000,91.352 40.000,92.731 L40.000,95.231 L80.001,95.231 L80.001,92.731 C80.001,91.352 78.879,90.231 77.500,90.231 L42.500,90.231 ZM74.031,85.231 L70.698,75.231 L49.302,75.231 L45.969,85.231 L74.031,85.231 ZM115.000,15.232 L20.431,15.232 C19.051,15.232 17.931,14.113 17.931,12.732 C17.931,11.351 19.051,10.231 20.431,10.231 L114.997,10.231 C114.971,7.471 112.720,5.232 109.953,5.232 L10.047,5.232 C7.264,5.232 5.000,7.496 5.000,10.278 L5.000,57.732 L99.969,57.732 C101.350,57.732 102.469,58.850 102.469,60.232 C102.469,61.612 101.350,62.732 99.969,62.732 L5.000,62.732 L5.000,65.185 C5.000,67.967 7.264,70.232 10.047,70.232 L47.500,70.232 L72.500,70.232 L109.953,70.232 C112.736,70.232 115.000,67.967 115.000,65.185 L115.000,15.232 ZM108.245,62.732 L107.188,62.732 C105.807,62.732 104.688,61.613 104.688,60.232 C104.688,58.850 105.807,57.732 107.188,57.732 L108.245,57.732 C109.626,57.732 110.745,58.850 110.745,60.232 C110.745,61.612 109.626,62.732 108.245,62.732 ZM74.588,26.034 L71.262,26.018 L70.783,29.803 L69.183,42.427 C69.016,43.743 67.852,44.688 66.546,44.598 L66.546,44.604 L47.483,43.335 C46.311,43.257 45.383,42.383 45.191,41.275 L45.188,41.275 L42.942,28.678 C42.705,27.318 43.614,26.024 44.973,25.787 C45.118,25.762 45.261,25.749 45.403,25.749 L45.403,25.748 L58.313,25.748 C59.694,25.748 60.814,26.867 60.814,28.248 C60.814,29.628 59.694,30.747 58.313,30.747 L48.386,30.747 L49.766,38.486 L64.537,39.469 L65.842,29.178 L66.599,23.206 C66.753,21.973 67.806,21.022 69.079,21.028 L74.608,21.055 C75.983,21.059 77.093,22.178 77.087,23.554 C77.082,24.928 75.963,26.039 74.588,26.034 ZM51.418,46.936 C52.795,46.936 53.917,48.060 53.918,49.437 C53.918,50.813 52.795,51.936 51.418,51.936 C50.041,51.936 48.918,50.813 48.918,49.437 C48.918,48.060 50.041,46.936 51.418,46.936 ZM64.162,46.936 C65.539,46.936 66.662,48.060 66.662,49.437 C66.662,50.813 65.539,51.936 64.162,51.936 C62.786,51.936 61.663,50.813 61.663,49.437 C61.663,48.060 62.786,46.936 64.162,46.936 ZM12.765,15.233 L11.642,15.233 C10.262,15.233 9.142,14.113 9.142,12.732 C9.142,11.351 10.262,10.232 11.642,10.232 L12.765,10.232 C14.146,10.232 15.265,11.351 15.265,12.732 C15.265,14.113 14.146,15.233 12.765,15.233 Z"/>
+           </svg></span></div>
+          <div class="sellandstart__title">Sell Your Products</div>
+          <div class="sellandstart__text">Nunc placerat mi id nisi interdum mollis. Praesent pharetra, justo ut scelerisque 
+              the mattis, leo quam aliquet diamcongue is laoreet elit metus.</div>
+              <div class="sellandstart__link"><a  href="#">Become an Author</a></div>
+          
+        </div>
+        <div class="start" style="background-image:url(img/content/start_BG.png);" >
+          <div class="sellandstart__ico">
+            <svg 
+            xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink"
+            width="100px" height="100px">
+           <path fill-rule="evenodd"  fill="rgb(255, 255, 255)"
+            d="M93.636,74.341 C93.483,74.616 93.276,74.840 93.037,75.013 L88.289,79.765 L99.308,90.792 C100.122,91.607 100.122,92.928 99.308,93.742 L93.668,99.386 C93.277,99.777 92.747,99.998 92.194,99.998 C91.642,99.998 91.112,99.777 90.721,99.386 L79.703,88.359 L74.711,93.356 C74.503,93.564 74.257,93.719 73.992,93.823 C72.653,94.553 71.283,95.221 69.888,95.825 L70.787,95.825 C71.937,95.825 72.870,96.760 72.870,97.911 C72.870,99.063 71.937,99.996 70.787,99.996 L49.848,99.995 C49.839,99.995 49.831,99.996 49.822,99.996 C49.819,99.996 49.815,99.996 49.811,99.996 C49.803,99.996 49.795,99.995 49.786,99.995 L29.117,99.995 C27.967,99.995 27.034,99.063 27.034,97.910 C27.034,96.760 27.967,95.825 29.117,95.825 L29.889,95.825 C28.202,95.087 26.552,94.255 24.950,93.329 C13.429,86.673 5.175,75.877 1.708,62.928 C-1.758,49.981 -0.004,36.499 6.648,24.969 C13.299,13.439 24.087,5.178 37.025,1.710 C49.962,-1.760 63.432,-0.004 74.953,6.652 C86.358,13.242 94.578,23.915 98.101,36.706 C101.619,49.482 100.034,62.848 93.636,74.341 ZM74.316,87.852 L78.230,83.935 C78.620,83.545 79.150,83.325 79.703,83.325 C80.255,83.325 80.785,83.545 81.176,83.935 L92.194,94.963 L94.888,92.267 L83.870,81.239 C83.479,80.849 83.259,80.318 83.259,79.765 C83.259,79.213 83.479,78.682 83.870,78.290 L87.783,74.374 L69.386,69.441 L74.316,87.852 ZM72.870,10.264 C62.312,4.164 49.965,2.557 38.103,5.738 C26.241,8.918 16.352,16.489 10.257,27.054 C4.161,37.620 2.555,49.977 5.733,61.849 C8.912,73.720 16.476,83.618 27.033,89.718 C40.365,97.422 56.998,97.798 70.790,90.797 L64.427,67.032 C64.234,66.314 64.440,65.545 64.967,65.017 C65.493,64.491 66.259,64.285 66.979,64.479 L90.768,70.857 C101.758,49.328 93.948,22.443 72.870,10.264 ZM88.728,41.752 C88.548,41.799 88.366,41.823 88.188,41.823 C87.268,41.823 86.426,41.209 86.176,40.277 C82.720,27.366 72.558,17.197 59.658,13.737 C58.547,13.439 57.887,12.295 58.185,11.183 C58.482,10.071 59.625,9.411 60.736,9.709 C75.070,13.553 86.361,24.851 90.201,39.196 C90.499,40.309 89.839,41.453 88.728,41.752 ZM56.704,57.849 C55.537,59.769 53.064,60.729 49.285,60.729 C45.445,60.729 43.051,59.700 42.101,57.640 C41.666,56.689 41.448,54.808 41.448,51.996 L41.448,40.143 C41.448,39.588 41.715,39.311 42.250,39.311 L44.862,39.311 C45.317,39.311 45.544,39.588 45.544,40.143 L45.544,52.887 C45.544,54.451 45.752,55.521 46.167,56.095 C46.721,56.887 47.840,57.283 49.522,57.283 C51.342,57.283 52.510,56.906 53.024,56.154 C53.459,55.541 53.677,54.472 53.677,52.947 L53.677,40.143 C53.677,39.588 53.944,39.311 54.478,39.311 L56.882,39.311 C57.357,39.311 57.595,39.589 57.595,40.143 L57.595,51.936 C57.595,53.520 57.536,54.748 57.417,55.620 C57.298,56.491 57.061,57.235 56.704,57.849 ZM52.916,12.570 C52.863,12.570 52.811,12.567 52.757,12.563 C52.253,12.526 51.727,12.497 51.196,12.479 C50.046,12.438 49.145,11.473 49.186,10.322 C49.225,9.172 50.185,8.270 51.340,8.311 C51.927,8.330 52.509,8.363 53.069,8.404 C54.217,8.490 55.077,9.491 54.991,10.640 C54.909,11.735 53.995,12.570 52.916,12.570 ZM41.719,88.799 C41.470,89.729 40.627,90.344 39.708,90.344 C39.529,90.344 39.348,90.322 39.167,90.273 C24.833,86.428 13.543,75.129 9.702,60.785 C9.404,59.673 10.064,58.529 11.176,58.230 C12.287,57.932 13.429,58.593 13.727,59.705 C17.184,72.615 27.345,82.785 40.246,86.244 C41.357,86.543 42.017,87.686 41.719,88.799 ZM34.706,50.942 C35.330,51.723 35.641,52.818 35.641,54.224 C35.641,57.036 34.642,58.839 32.644,59.630 C31.495,60.086 29.477,60.314 26.588,60.314 L23.293,60.314 C22.225,60.314 21.438,60.066 20.934,59.571 C20.429,59.076 20.177,58.274 20.177,57.165 L20.177,42.610 C20.177,40.430 21.216,39.342 23.294,39.342 L26.766,39.342 C27.894,39.342 28.973,39.402 30.002,39.520 C31.704,39.697 32.960,40.198 33.771,41.020 C34.583,41.841 34.988,43.016 34.988,44.541 C34.988,45.826 34.741,46.857 34.246,47.630 C33.752,48.401 32.970,48.967 31.901,49.323 C33.148,49.620 34.083,50.159 34.706,50.942 ZM30.432,43.604 C30.145,43.257 29.724,42.996 29.170,42.816 C28.735,42.698 28.082,42.638 27.211,42.638 L25.164,42.638 C24.570,42.638 24.273,42.996 24.273,43.707 L24.273,43.707 L24.273,47.867 L27.004,47.867 C28.270,47.867 29.111,47.777 29.526,47.599 C30.417,47.223 30.862,46.450 30.862,45.282 C30.862,44.509 30.718,43.950 30.432,43.604 ZM29.942,51.432 C29.428,51.234 28.507,51.134 27.181,51.134 L24.273,51.134 L24.273,55.768 C24.273,56.165 24.357,56.453 24.525,56.631 C24.693,56.808 24.985,56.898 25.401,56.898 L27.597,56.898 C28.725,56.898 29.537,56.798 30.031,56.601 C30.981,56.225 31.456,55.303 31.456,53.837 C31.456,52.649 30.951,51.848 29.942,51.432 ZM47.146,87.418 C47.654,87.456 48.179,87.484 48.707,87.502 C49.857,87.542 50.757,88.507 50.718,89.657 C50.679,90.784 49.755,91.672 48.637,91.672 C48.613,91.672 48.589,91.671 48.565,91.671 C47.980,91.650 47.398,91.620 46.834,91.577 C45.687,91.490 44.827,90.490 44.913,89.342 C44.999,88.194 45.998,87.331 47.146,87.418 ZM62.186,39.370 C62.404,39.291 63.512,39.251 65.510,39.251 C65.984,39.251 66.380,39.529 66.697,40.083 C68.597,43.233 70.002,45.688 70.912,47.451 C71.664,46.005 73.079,43.569 75.156,40.143 C75.493,39.548 75.899,39.251 76.373,39.251 C78.075,39.251 79.074,39.301 79.371,39.401 C79.609,39.499 79.727,39.668 79.728,39.905 C79.728,40.124 79.609,40.440 79.372,40.856 L72.841,51.490 L72.841,59.452 C72.841,59.729 72.762,59.947 72.604,60.105 C72.445,60.265 72.248,60.343 72.010,60.343 L69.517,60.343 C68.982,60.343 68.715,60.046 68.715,59.452 L68.716,59.452 L68.716,51.610 L62.186,40.915 C61.928,40.479 61.800,40.152 61.800,39.934 C61.800,39.678 61.928,39.488 62.186,39.370 Z"/>
+           </svg></div>
+          <div class="sellandstart__title">Start Shopping Today</div>
+          <div class="sellandstart__text">Nunc placerat mi id nisi interdum mollis. Praesent pharetra, justo ut scelerisque 
+              the mattis, leo quam aliquet diamcongue is laoreet elit metus.</div>
+              <div class="sellandstart__link"><a  href="#">Start Shopping</a></div>
+        </div>
+
+      </div>
+    </section>
+
+    <section class="ourclients">
+      <div class="container">
+        <h2 class="ourclients__title" >Our Clients <span>Feedback</span> </h3>
+        <h3 class="ourclients__title" >Laborum dolo rumes fugats untras. Etharums ser quidem rerum facilis dolores nemis omnis fugats. Lid est laborum dolo rumes fugats untras.</h2>
+        <div class="ourclients__inner">
+
+            <div class="ourclients__item">
+              <div class="ourclients__item-inner">
+                  <div class="ourclients__item-img" style="background-image: url(/img/content/ourclients__item-img.png);" ></div>
+                  <div class="ourclients__item-name"> <span>Taofiqul Hakim</span>  <br> Product Designer</div>
+                  <div class="ourclients__item-ico"><span class="icon-comment-o"></span></div>
+              </div>
+              <div class="ourclients__item-text">Nunc placerat mi id nisi interdum mollis. Praesent pharetra, justo ut scelerisque the mattis, leo quam aliquet diam congue is the laoreet elit metus. Nunc placerat mi is id nisi interdum is mollis. Praesent the pharetra, justo ut scelerisque.</div>
+            </div>
+            <div class="ourclients__item">
+                <div class="ourclients__item-inner">
+                    <div class="ourclients__item-img" style="background-image: url(/img/content/ourclients__item-img.png);" ></div>
+                    <div class="ourclients__item-name"><span>Taofiqul Hakim</span> <br> Product Designer</div>
+                    <div class="ourclients__item-ico"><span class="icon-comment-o"></span></div>
+                </div>
+                <div class="ourclients__item-text">Nunc placerat mi id nisi interdum mollis. Praesent pharetra, justo ut scelerisque the mattis, leo quam aliquet diam congue is the laoreet elit metus. Nunc placerat mi is id nisi interdum is mollis. Praesent the pharetra, justo ut scelerisque.</div>
+              </div>
+
+        </div>
+
+        <div class="ourclients__link">
+          <a href="#">View All Reviews</a>
+        </div>
+
+      </div>
+    </section>
+    <section class="latest">
+      <div class="container">
+        <h2> Latest <span>News</span> </h2>
+        <h3>Laborum dolo rumes fugats untras. Etharums ser quidem rerum facilis dolores nemis omnis fugats. Lid est laborum dolo rumes fugats untras.</h3>
+        <div class="latest__inner">
+
+          <div class="latest__item">
+            <div class="latest__item-img" style="background-image: url(img/content/latest__item-img.png);"></div>
+            <div class="latest__item-title">Web Design Trends in 2017</div>
+            <div class="latest__item-text">Nunc placerat mi id nisi interdum mollis. Praesent pharetra, justo ut scelerisque 
+                the mattis, leo quam aliquet congue.</div>
+            <div class="latest__item-inner">
+                <div class="latest__item-inner-date"><span class="lnr lnr-menu-circle"></span>24 Feb 2017</div>
+                <div class="latest__item-inner-comment"><span class="lnr lnr-star"></span>45</div>
+                <div class="latest__item-inner-watch"><span class="lnr lnr-cross-circle"></span>345</div>
+            </div>
+          </div>
+          <div class="latest__item">
+            <div class="latest__item-img" style="background-image: url(img/content/latest__item-img.png);"></div>
+            <div class="latest__item-title">Web Design Trends in 2017</div>
+            <div class="latest__item-text">Nunc placerat mi id nisi interdum mollis. Praesent pharetra, justo ut scelerisque 
+                the mattis, leo quam aliquet congue.</div>
+            <div class="latest__item-inner">
+                <div class="latest__item-inner-date"><span class="lnr lnr-menu-circle"></span>24 Feb 2017</div>
+                <div class="latest__item-inner-comment"><span class="lnr lnr-star"></span>45</div>
+                <div class="latest__item-inner-watch"><span class="lnr lnr-cross-circle"></span>345</div>
+            </div>
+          </div>
+          <div class="latest__item">
+            <div class="latest__item-img" style="background-image: url(img/content/latest__item-img.png);"></div>
+            <div class="latest__item-title">Web Design Trends in 2017</div>
+            <div class="latest__item-text">Nunc placerat mi id nisi interdum mollis. Praesent pharetra, justo ut scelerisque 
+                the mattis, leo quam aliquet congue.</div>
+            <div class="latest__item-inner">
+                <div class="latest__item-inner-date"><span class="lnr lnr-menu-circle"></span>24 Feb 2017</div>
+                <div class="latest__item-inner-comment"><span class="lnr lnr-star"></span>45</div>
+                <div class="latest__item-inner-watch"><span class="lnr lnr-cross-circle"></span>345</div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <section class="support">
+      <div class="container">
+        <div class="support__inner">
+          <div class="support__inner-item ">
+            <div class="support__inner-item-img"><img src="img/icons/Icon_support.png" alt=""></div>
+            <div class="support__inner-item-title">30 Days Money Back <span>Guarantee</span> </div>
+          </div>
+          <div class="support__inner-item support">
+            <div class="support__inner-item-img"><img src="img/icons/Icon_support-2.png" alt=""></div>
+            <div class="support__inner-item-title">Fast and Friendly <span class="support">Support</span> </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="ready">
+      <div class="container">
+        <div class="ready__inner">
+          <h2>Ready to Join Our Marketplace!</h2>
+          <h3>Over 25,000 designers and developers trust the MartPlace.</h3>
+          <div class="ready__inner-link"><a href="#">Join Us Today</a></div>
+        </div>
+      </div>
+    </section>
+
+  </div>
+  <footer class="footer">
+    <div class="footer__content " >
+      <div class="container">
+        <div class="footer__inner">
+          <div class="footer__col footer__information">
+            <div class="footer__img">
+              <a href="#"><img src="img/content/footer__logo.png" alt=""></a>
+            </div>
+            <div class="footer__text">Nunc placerat mi id nisi interdum they mollis. Praesent pharetra, justo ut scel erisque the mattis, leo quam.</div>
+            <div class="footer__phone ">
+              <a class="icon-phone" href="tel:67898752235">Phone: +6789-875-2235</a>
+            </div>
+            <div class=" icon-envelope-o footer__mail">support@aazztech.com</div>
+            <div class="icon-map-marker footer__adress">202 New Hampshire Avenue
+              Northwest #100, New York-2573</div>
+          </div>
+          <div class="footer__col footer__list">
+            <div class="footer__title">Our Company</div>
+            <ul>
+              <li>About Us</li>
+              <li>How It Work</li>
+              <li>Affiliates</li>
+              <li>Testimonials</li>
+              <li>Contact Us</li>
+              <li>Copyright Notice</li>
+              <li>Blog</li>
+            </ul>
+          </div>
+          <div class="footer__col footer__list">
+            <div class="footer__title">Help Support</div>
+            <ul>
+              <li>Support Forum</li>
+              <li>Terms & Conditions</li>
+              <li>Support Policy</li>
+              <li>Refund Policy</li>
+              <li>FAQs</li>
+              <li>Buyers Faq</li>
+              <li>Sellers Faq</li>
+            </ul>
+          </div>
+          <div class="footer__col footer__col-social">
+            <div class="footer__title">Newsletter</div>
+            <div class="footer__text footer__text-social">Subscribe to get the latest news, update and offer information. Don't worry, we won't send spam!</div>
+            <div class="footer__form">
+              <form>
+                <input type="text" placeholder="Enter email">
+                <button type="submit">Submit</button>
+              </form>
+            </div>
+            <ul class="footer__list">
+              <li><a class="icon-pinterest-p" href="#"></a ></li>
+              <li><a class="icon-pinterest-p" href="#"></a ></li>
+              <li><a class="icon-pinterest-p" href="#"></a ></li>
+              <li><a class="icon-pinterest-p" href="#"></a ></li>
+              <li><a class="icon-pinterest-p" href="#"></a ></li>
+              <li><a class="icon-pinterest-p" href="#"></a ></li>
+            </ul>
+          </div>
+
+        </div>
+      </div>
+  </div>
+  <div class="footer__copy">
+    <div class="container">
+      <div class="footer__copy-text">©2017 <span>MartPlace.</span>  All rights reserved. Created by <span>AazzTech</span> </div>
+    </div>
+  </div>  
+  </footer>
+</div>
+
+    <script src="https://cdn.linearicons.com/free/1.0.0/svgembedder.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="js/libs.min.js"></script>
     <script src="js/main.js"></script>
