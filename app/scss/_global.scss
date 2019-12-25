@@ -44,20 +44,24 @@ body {
  
   &-1 {
     background-color: $red;
+    box-shadow: $box-shadow;
     animation: $speed $animation $delay $iterationCount ball-1;
   }
   &-2 {
     background-color: $green;
+    box-shadow: $box-shadow;
     animation: $speed $animation $delay $iterationCount ball-2;
   }
 
   &-3 {
     background-color: $bg;
+    box-shadow: $box-shadow;
     animation: $speed $animation $delay $iterationCount ball-3;
     
   }
   &-4 {
     background-color: $text;
+    box-shadow: $box-shadow;
     animation: $speed $animation $delay $iterationCount ball-4;
   }
 }
