@@ -1,31 +1,144 @@
-html{
-    box-sizing: border-box;
+html {
+  box-sizing: border-box;
 }
 *,
 *::before,
-*::after{
-    box-sizing: inherit;
+*::after {
+  box-sizing: inherit;
 }
-a{
-    display: inline-block;
-    text-decoration: none;
-    color: $text;
+html,
+body {
+  height: 100%;
+  position: relative;
+  overflow-x: hidden;
+}
+a {
+  display: inline-block;
+  text-decoration: none;
+  color: $text;
 }
 ul,
-li{
-margin: 0;
-padding: 0;
-list-style: none;
+li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
 }
-body{
-    font-family: "Roboto-Regular", sans-serif;
-    font-size: 15px;
-    line-height: 24px;
-    color: $text;
+body {
+  font-family: "Quicksand", sans-serif;
+  font-size: 15px;
+  line-height: 24px;
+  color: $text;
+}
+.animation__wrapper,
+.ball {
+  width: $size;
+  height: $size;
+}
+.animation__wrapper {
+  position: relative;
+  margin-left: 25px;
+}
+.ball {
+  position: absolute;
+  border-radius: $size;
+ 
+  &-1 {
+    background-color: $red;
+    box-shadow: $box-shadow;
+    animation: $speed $animation $delay $iterationCount ball-1;
+  }
+  &-2 {
+    background-color: $green;
+    box-shadow: $box-shadow;
+    animation: $speed $animation $delay $iterationCount ball-2;
+  }
+
+  &-3 {
+    background-color: $bg;
+    box-shadow: $box-shadow;
+    animation: $speed $animation $delay $iterationCount ball-3;
     
+  }
+  &-4 {
+    background-color: $text;
+    box-shadow: $box-shadow;
+    animation: $speed $animation $delay $iterationCount ball-4;
+  }
 }
-.container{
-    max-width: 1200px;
-    margin: 0 auto;
+@keyframes ball-1 {
+  0%,
+  100% {transform: translate(0, 0);}
+  25%{transform: translate(0, -$distance);}
+  50%{transform: translate($distance, 0);}
+  75%{transform: translate(-$distance, 0);}
+}
+@keyframes ball-2 {
+  0%,
+  100% {transform: translate(0, 0);}
+  25%{transform: translate($distance, 0);}
+  50%{transform: translate(0, $distance);}
+  75%{transform: translate(0, -$distance);}
+}
+
+@keyframes ball-3 {
+    0%,
+    100% {transform: translate(0, 0);}
+    25%{transform: translate(0, $distance);}
+    50%{transform: translate(-$distance, 0);}
+    75%{transform: translate($distance, 0);}
+  }
+  @keyframes ball-4 {
+    0%,
+    100% {transform: translate(0, 0);}
+    25%{transform: translate(-$distance, 0);}
+    50%{transform: translate(0, -$distance);}
+    75%{transform: translate(0, $distance);}
+  }
+.off {
+  display: none;
+}
+.on {
+  display: block;
+}
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+}
+.content {
+  flex: 1 0 auto;
+}
+.footer {
+  flex: 0 0 auto;
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+.container-fluid {
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 0 30px;
+}
+
+@media (max-width: 720px) {
+  .container-fluid {
     padding: 0 15px;
+  }
+}
+.angle-right {
+  position: relative;
+  padding-left: 15px;
+  &::before {
+    content: "\f105";
+    font-family: "icomoon";
+    position: absolute;
+    left: 0;
+    color: $green;
+    font-size: 14px;
+  }
+}
+#modal {
+  display: none;
 }
